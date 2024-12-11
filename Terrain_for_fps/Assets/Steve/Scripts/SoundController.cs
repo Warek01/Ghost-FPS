@@ -1,23 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundController : MonoBehaviour
-{
-    public AudioSource shot;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class SoundController : MonoBehaviour {
+   public AudioSource shot;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void Fire(){
-        shot.Play();
+   // Start is called before the first frame update
+   void Start() { }
 
-    }
+   // Update is called once per frame
+   void Update() { }
+
+   public void Fire() {
+      shot.Play();
+   }
 }
